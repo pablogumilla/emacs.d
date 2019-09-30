@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Except relevant configuration files
+!README.md
+!init.el
+!elisp
+!elisp/*
+!.gitignore
+elisp/elpy-eventbrite.el
