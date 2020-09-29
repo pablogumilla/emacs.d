@@ -54,7 +54,7 @@
   (defun my-web-mode-hook ()
     "Hook for `web-mode' config for company-backends."
     (set (make-local-variable 'company-backends)
-         '((company-tern company-css company-web-html company-files))))
+         '((company-css company-web-html company-files))))
   (add-hook 'web-mode-hook 'my-web-mode-hook)
 
   ;; Enable JavaScript completion between <script>...</script> etc.
